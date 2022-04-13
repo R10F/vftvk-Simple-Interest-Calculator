@@ -10,7 +10,7 @@ function compute() {
   var year = new Date().getFullYear() + parseInt(years);
 
   document.getElementById("result").innerHTML =
-    "<br/> If you deposit " +
+    "<br/> <br/> If you deposit " +
     "<mark> " +
     principal +
     "</mark>" +
