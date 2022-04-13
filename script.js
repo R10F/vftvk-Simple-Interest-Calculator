@@ -35,12 +35,3 @@ function updateRate() {
 
   return rateval;
 }
-
-// function result() {
-//   var result = document.getElementById("principal");
-//   if (result.value <= 0 || result.value == "") {
-//     alert("Enter a positve number");
-//     result.focus();
-//     return false;
-//   }
-// }
