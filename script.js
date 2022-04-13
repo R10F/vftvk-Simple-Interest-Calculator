@@ -10,7 +10,7 @@ function compute() {
   var year = new Date().getFullYear() + parseInt(years);
 
   document.getElementById("result").innerHTML =
-    "<br/> <br/> If you deposit " +
+    "</br> If you deposit " +
     "<mark> " +
     principal +
     "</mark>" +
@@ -36,12 +36,11 @@ function updateRate() {
   return rateval;
 }
 
-function checkdata() {
-  var checkprincipal = document.getElementById("principal");
-
-  if (checkprincipal.value <= 0 || checkprincipal.value == "") {
-    alert("Enter a positive number");
-    checkprincipal.focus();
-    return false;
-  }
-}
+// function result() {
+//   var result = document.getElementById("principal");
+//   if (result.value <= 0 || result.value == "") {
+//     alert("Enter a positve number");
+//     result.focus();
+//     return false;
+//   }
+// }
