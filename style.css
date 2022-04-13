@@ -2,18 +2,32 @@ body {
   background-color: black;
   font-family: arial;
   color: white;
+  text-align: justify;
 }
 
 h1 {
   color: grey;
   font-family: verdana;
+  text-align: center;
 }
 
 .maindiv {
   background-color: white;
   color: black;
-  width: 300px;
+  width: 600px;
   padding: 20px;
   border-radius: 25px;
   margin: auto;
+}
+
+input[type="number"] {
+  margin-left: 8em;
+}
+
+input[type="range"] {
+  margin-left: 9.5em;
+}
+
+select[name="years"] {
+  margin-left: 5.5em;
 }
