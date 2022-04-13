@@ -1,14 +1,3 @@
-function checkdataPrincipal() {
-  var principal = document.getElementById("principal");
-
-  if (principal.value == "" || principal.value <= 0) {
-    alert("Enter Positive Number");
-    principal.focus();
-    return false;
-  }
-
-  return true;
-}
 function compute() {
   var principal = document.getElementById("principal").value;
 
@@ -45,4 +34,14 @@ function updateRate() {
   document.getElementById("rate_val").innerText = rateval + "%";
 
   return rateval;
+}
+
+function checkdata() {
+  var checkprincipal = document.getElementById("principal");
+
+  if (checkprincipal.value <= 0 || checkprincipal.value == "") {
+    alert("Enter a positive number");
+    checkprincipal.focus();
+    return false;
+  }
 }
