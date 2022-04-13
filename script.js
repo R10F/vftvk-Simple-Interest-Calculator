@@ -1,7 +1,7 @@
 function checkdataPrincipal() {
   var principal = document.getElementById("principal");
 
-  if (principal.value <= 0 || principal.value == "") {
+  if (principal.value == "" || principal.value <= 0) {
     alert("Enter Positive Number");
     principal.focus();
     return false;
@@ -9,7 +9,6 @@ function checkdataPrincipal() {
 
   return true;
 }
-
 function compute() {
   var principal = document.getElementById("principal").value;
 
